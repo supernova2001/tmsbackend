@@ -126,7 +126,7 @@ export const login = async (req, res) => {
   
       await user.save();
 
-      const resetPasswordURL = `https://stirring-alfajores-b755fc.netlify.app/reset-password/${resetToken}`;
+      const resetPasswordURL = `https://main--polite-dolphin-fce22b.netlify.app/reset-password/${resetToken}`;
 
       const transporter = nodemailer.createTransport({
         service: 'Gmail', // Use your email service provider (e.g., 'Gmail', 'Outlook', 'SMTP', etc.)
