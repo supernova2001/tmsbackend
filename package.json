@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "description": "1. In the first commit,\r Added: \r -> Database schema\r -> APIs for login and register",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error No test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1",
+    "otplib": "^12.0.1",
+    "qrcode": "^1.5.3",
+    "speakeasy": "^2.0.0",
+    "uuid": "^9.0.1"
+  },
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC"
+}
