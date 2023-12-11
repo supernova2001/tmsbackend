@@ -20,7 +20,7 @@ import reviewRouter from "./routes/getReviewsAccommodation.js";
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
-const allowedOrigins = ['https://main--polite-dolphin-fce22b.netlify.app/']; // Remove the trailing slash
+const allowedOrigins = ['https://main--polite-dolphin-fce22b.netlify.app']; // Remove the trailing slash
 
 app.use(cors({
   origin: function (origin, callback) {
